@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="css/framework7.md.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>HumanLeds</title>
+    </head>
+    <body>
+    <!-- App root element -->
+    <div id="app">
+        <!-- Statusbar overlay -->
+        <div class="statusbar"></div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <!-- Top Navbar -->
+                <div class="navbar">
+                    <div class="navbar-inner sliding">
+                        <div class="left">
+                            <a class="link back">
+                                <i class="material-icons md-only">home</i>
+                                <span class="ios-only">Back</span>
+                            </a>
+                        </div>
+                        <div class="title">HumanLeds</div>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content" style="padding:20px;margin-top:70px;">
+                    <h4 style="text-transform: uppercase;">Selecciona tu lugar</h4>
+                    <div class="row col-100">
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(1);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">1</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(2);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">2</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(3);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">3</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row col-100">
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(4);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">4</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(5);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">5</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(6);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">6</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row col-100">
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(7);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">7</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(8);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">8</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-33" style="width:31%; height:100px;background:#2196f3;margin-bottom:10px;color:#ffffff;">
+                            <a href="/evento/" onclick="entrar(9);" style="color:#ffffff;width:100%;text-align:center">
+                                <div style="margin-top:25px;">
+                                    <div style="border:2px solid #ffffff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;">
+                                        <span style="font-size:30px;line-height:35px;">9</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row col-100">
+                        <a href="/consola/" onclick="entrar(10);" style="height:40px;width:100%;background:#221166;color:#FFFFFF;text-align: center;line-height: 40px;font-size: 20px;">Admin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
